@@ -75,7 +75,6 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:text="5"
-
                 android:textSize="50dp" />
 
             <Button
@@ -157,5 +156,22 @@
 
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/outcome"
+        android:layout_width="144dp"
+        android:layout_height="62dp"
+        android:text="0"
+        android:textSize="50"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/eq"
+        android:layout_width="409dp"
+        android:layout_height="119dp"
+        android:text=""
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
